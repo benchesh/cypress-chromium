@@ -1,0 +1,26 @@
+{
+  "name": "cypress-chromium",
+  "version": "1.0.0",
+  "description": "An easy way to install and use the Chromium browser in a Cypress project",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Cheshire",
+  "peerDependencies": {
+    "cypress": ">=12"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benchesh/cypress-chromium.git"
+  },
+  "dependencies": {
+    "chromium": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.13.0"
+  }
+}
